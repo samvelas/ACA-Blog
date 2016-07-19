@@ -333,7 +333,7 @@ function searchPostsAtTag($tag){
 
     foreach ($postId as $item) {
 
-        $sql = "SELECT id, title, date_created, content, author_id FROM blog_posts WHERE id='{$item}'";
+        $sql = "SELECT id, title, date_created, content, author_id, image FROM blog_posts WHERE id='{$item}'";
         $result = mysqli_query($dbConnection, $sql);
 
         if (mysqli_num_rows($result) > 0) {
