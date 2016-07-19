@@ -1,0 +1,203 @@
+body {
+    padding-top: 50px;
+    background-image: url("cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-control {
+    display: inline-block !important;
+    width: 33% !important;
+}
+
+.checkbox {
+    display: inline-block !important;
+    margin-left: 10px;
+}
+
+
+.btn-info {
+    padding: 12px 50px !important;
+    margin: 20px auto;
+}
+
+.search {
+    display: inline-block;
+}
+
+.table {
+    text-align: center !important;
+}
+
+.row {
+    text-align: center !important;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:hover td {
+    background-color: #e4e4e4 !important;
+}
+
+th {
+    text-align: center !important;
+}
+
+.sm {
+    width: 30%;
+}
+
+td {
+    vertical-align: middle !important;
+    font-size: medium;
+}
+
+.cont {
+    max-height: 50px !important;
+}
+
+#content-limit {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 80px !important;
+}
+
+#title-limit {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 110px !important;
+}
+
+#edit {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+#image, #image:active {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+h1 {
+    color: white !important;
+    display: inline-block;
+    width: 70%;
+}
+
+.col-md-3 {
+    background-color: darkslategray;
+}
+
+#myBtn {
+    margin-left: 25px;
+    margin-right: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+form {
+    text-align: center;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.form-control {
+    width: 100% !important;
+    margin: 10px;
+}
+
+#picture {
+    display: block;
+}
+
+#name {
+    margin: 40px
+}
+
+#add {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.well {
+    font-size: 18px;
+    text-align: center;
+}
+
+span {
+    color: darkred;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 50px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content_container {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: white;
+    text-align: left !important;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    padding-bottom: 500px;
+}
+
+.tag {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tags {
+    text-align: left !important;;
+}
+
+#title {
+    margin-bottom: 20px !important;
+}
+
+#conte {
+    resize: none;
+    height: 150px !important;
+    overflow-y: auto;
+}
